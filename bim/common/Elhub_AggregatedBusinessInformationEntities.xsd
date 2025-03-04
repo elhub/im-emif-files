@@ -492,6 +492,7 @@
 			<xsd:element name="MeteringPointUsedDomainLocation" type="abie:Elhub_MeteringPointType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="BalanceSupplierInvolvedEnergyParty" type="abie:Elhub_EnergyPartyType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="moveInToSLR" type="bdt:Elhub_boolean" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="ConsentID" type="bdt:UUIDType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="ConsumerInvolvedCustomerParty" type="abie:Elhub_CustomerPartyStartOfSupplyType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="ConsumerInvolvedCustomerAddress" type="abie:Elhub_InvoiceeAddressType" minOccurs="1" maxOccurs="2"/>
 		</xsd:sequence>
