@@ -1,0 +1,71 @@
+<urn1:RequestUpdateSharedProduction xmlns:urn1="urn:no:elhub:emif:masterdata:RequestUpdateSharedProduction:v2" xmlns:urn2="urn:no:elhub:emif:common:AggregatedBusinessInformationEntities:v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:no:elhub:emif:masterdata:RequestUpdateSharedProduction:v2 ">
+    <urn1:Header>
+        <urn2:Identification>123e4567-e89b-12d3-a456-426655440005</urn2:Identification>
+        <urn2:DocumentType listAgencyIdentifier="260">E58</urn2:DocumentType>
+        <urn2:Creation>2024-05-02T11:07:23+02:00</urn2:Creation>
+        <urn2:PhysicalSenderEnergyParty>
+            <urn2:Identification schemeAgencyIdentifier="9">1048700000004</urn2:Identification>
+        </urn2:PhysicalSenderEnergyParty>
+        <urn2:JuridicalSenderEnergyParty>
+            <urn2:Identification schemeAgencyIdentifier="9">1048700000004</urn2:Identification>
+        </urn2:JuridicalSenderEnergyParty>
+        <urn2:JuridicalRecipientEnergyParty>
+            <urn2:Identification schemeAgencyIdentifier="9">7080003824349</urn2:Identification>
+        </urn2:JuridicalRecipientEnergyParty>
+    </urn1:Header>
+    <urn1:ProcessEnergyContext>
+        <urn2:EnergyBusinessProcess listAgencyIdentifier="89">BRS-NO-701</urn2:EnergyBusinessProcess>
+        <urn2:EnergyBusinessProcessRole listAgencyIdentifier="6">DDM</urn2:EnergyBusinessProcessRole>
+        <urn2:EnergyIndustryClassification>23</urn2:EnergyIndustryClassification>
+    </urn1:ProcessEnergyContext>
+    <urn1:PayloadMasterDataMPEvent>
+        <urn2:StartOfOccurrence>2024-05-09T00:00:00+02:00</urn2:StartOfOccurrence>
+        <urn2:UpdateIndicator>Add</urn2:UpdateIndicator>
+        <urn2:VirtualCalculation>
+            <urn2:Name>name</urn2:Name>
+            <urn2:Description>description</urn2:Description>
+            <urn2:Id>123e4567-e89b-12d3-a456-426655440001</urn2:Id>
+            <urn2:FormulaType>Manual</urn2:FormulaType>
+            <urn2:Participants>
+                <urn2:Contributors>
+                    <urn2:Contributor>
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Contributor>
+                    <urn2:Contributor>
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Contributor>        
+                </urn2:Contributors>
+                <urn2:Recipients>
+                    <urn2:Recipient>
+                        <urn2:Share>0,250000</urn2:Share>                
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Recipient>
+                    <urn2:Recipient>
+                        <urn2:Share>0,250000</urn2:Share> 
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Recipient>
+                    <urn2:Recipient>
+                        <urn2:Share>0,250000</urn2:Share> 
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Recipient>
+                    <urn2:Recipient>    
+                        <urn2:Share>0,250000</urn2:Share> 
+                        <urn2:MeteringPointUsedDomainLocation>
+                            <urn2:Identification schemeAgencyIdentifier="9">707057500011095878</urn2:Identification>
+                        </urn2:MeteringPointUsedDomainLocation>
+                    </urn2:Recipient>
+                </urn2:Recipients>
+            </urn2:Participants>
+        </urn2:VirtualCalculation>
+    </urn1:PayloadMasterDataMPEvent>
+</urn1:RequestUpdateSharedProduction>
