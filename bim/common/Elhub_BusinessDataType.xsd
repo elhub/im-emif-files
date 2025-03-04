@@ -153,6 +153,7 @@
 			<xsd:enumeration value="A04"/>
 			<xsd:enumeration value="A07"/>
 			<xsd:enumeration value="A15"/>
+			<xsd:enumeration value="B25"/>
 			<xsd:enumeration value="B27"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -937,9 +938,27 @@
 	</xsd:simpleType>
 	<xsd:simpleType name="ProductionCode">
 		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="B01"/>
+			<xsd:enumeration value="B02"/>
+			<xsd:enumeration value="B03"/>
+			<xsd:enumeration value="B04"/>
+			<xsd:enumeration value="B05"/>
+			<xsd:enumeration value="B06"/>
+			<xsd:enumeration value="B07"/>
+			<xsd:enumeration value="B08"/>
+			<xsd:enumeration value="B09"/>
+			<xsd:enumeration value="B10"/>
+			<xsd:enumeration value="B11"/>
+			<xsd:enumeration value="B12"/>
+			<xsd:enumeration value="B13"/>
 			<xsd:enumeration value="B14"/>
+			<xsd:enumeration value="B15"/>
 			<xsd:enumeration value="B16"/>
+			<xsd:enumeration value="B17"/>
+			<xsd:enumeration value="B18"/>
+			<xsd:enumeration value="B19"/>
 			<xsd:enumeration value="B20"/>
+			<xsd:enumeration value="B25"/>
 			<xsd:enumeration value="Z04"/>
 			<xsd:enumeration value="Z05"/>
 			<xsd:enumeration value="Z06"/>
