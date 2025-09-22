@@ -1,5 +1,5 @@
 <?xml  version='1.0' encoding='utf-8' ?>
-<xsd:schema targetNamespace="urn:no:elhub:emif:common:BusinessDataType:v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bdt="urn:no:elhub:emif:common:BusinessDataType:v2" elementFormDefault="qualified" version="2.4">
+<xsd:schema targetNamespace="urn:no:elhub:emif:common:BusinessDataType:v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bdt="urn:no:elhub:emif:common:BusinessDataType:v2" elementFormDefault="qualified" version="2.4.1">
 	<xsd:simpleType name="AcknowledgementStatus">
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="39"/>

@@ -8,7 +8,7 @@
 
     <wsdl:types>
         <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:no:elhub:emif:wsdl:polling:meteringvalues:v2"
-                    version="2.4">
+                    version="2.4.1">
             <xsd:include schemaLocation="xsd/PollMeteringValues.xsd"/>
         </xsd:schema>
     </wsdl:types>

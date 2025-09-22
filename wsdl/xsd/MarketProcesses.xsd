@@ -8,7 +8,7 @@
             xmlns:ns24="urn:no:elhub:emif:thirdpartyaccess:UpdateThirdPartyAccess:v2"
             xmlns:ns56="urn:no:elhub:emif:masterdata:RequestUpdateSharedProduction:v2"
             xmlns:ns28="urn:no:elhub:emif:wsdl:common:v2" targetNamespace="urn:no:elhub:emif:wsdl:marketprocesses:v2"
-            elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.4">
+            elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.4.1">
   <xsd:import namespace="urn:no:elhub:emif:market:RequestStartOfSupply:v2"
               schemaLocation="../../bim/market/RequestStartOfSupply.xsd"/>
   <xsd:import namespace="urn:no:elhub:emif:market:RequestEndOfSupply:v2"
