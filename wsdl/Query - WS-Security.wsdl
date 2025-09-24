@@ -87,7 +87,7 @@
 		</wsp1_2:ExactlyOne>
 	</wsp1_2:Policy>
 	<wsdl:types>
-		<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:no:elhub:emif:wsdl:query:v2" version="2.4">
+		<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:no:elhub:emif:wsdl:query:v2" version="2.4.1">
 			<xsd:include schemaLocation="xsd/Query.xsd"/>
 		</xsd:schema>
 	</wsdl:types>
