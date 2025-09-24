@@ -25,7 +25,7 @@
 			<xsd:choice minOccurs="1" maxOccurs="1">
 				<xsd:element name="Observation" type="abie:QuantityMeteredCollect" minOccurs="1" maxOccurs="9999"/>
 				<xsd:element name="ProfiledObservation" type="abie:QuantityProfiledCollect" minOccurs="1" maxOccurs="1"/>
-				<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeType" minOccurs="1" maxOccurs="1"/>
+				<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeType" minOccurs="1" maxOccurs="2"/>
 			</xsd:choice>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -150,11 +150,13 @@
 		<xsd:sequence>
 			<xsd:element name="Total" type="bdt:long12" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="CalculationMethod" type="bdt:CalculationMethod" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Direction" type="bdt:DirectionType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="Elhub_EstimatedAnnualVolumeType">
 		<xsd:sequence>
 			<xsd:element name="Total" type="bdt:long12" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Direction" type="bdt:DirectionType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="Elhub_HeaderType">
@@ -324,7 +326,7 @@
 			<xsd:element name="ConsumerInvolvedCustomerParty" type="abie:Elhub_CustomerPartyNotifyType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MeteringGridAreaUsedDomainLocation" type="abie:Elhub_MeteringGridAreaType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MpDetailMeteringPointCharacteristic" type="abie:Elhub_DetailMeteringPointCharacteristicType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="2"/>
 			<xsd:element name="MeteringInstallationMeterFacility" type="abie:Elhub_MeterFacilityType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MPTaxationProfile" type="abie:Elhub_TaxationProfileMeteringPointType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MeasurementDefinition" type="abie:Elhub_MeasurementDefinitionType" minOccurs="0" maxOccurs="99"/>
@@ -351,7 +353,7 @@
 			<xsd:element name="ConsumerInvolvedCustomerParty" type="abie:Elhub_CustomerPartyStartOfSupplyType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="ConsumerInvolvedCustomerAddress" type="abie:Elhub_InvoiceeAddressType" minOccurs="1" maxOccurs="2"/>
 			<xsd:element name="MPDetailMeteringPointCharacteristics" type="abie:Elhub_DetailMeteringPointCharacteristicType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="2"/>
 			<xsd:element name="MeteringInstallationMeterFacility" type="abie:Elhub_MeterFacilityType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MPTaxationProfile" type="abie:Elhub_TaxationProfileMeteringPointType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MeasurementDefinition" type="abie:Elhub_MeasurementDefinitionType" minOccurs="0" maxOccurs="99"/>
@@ -532,7 +534,7 @@
 			<xsd:element name="MPPositionMeteringPointGeographicalCoordinate" type="abie:Elhub_MeteringPointGeographicalCoordinateType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MPAddressCadastral" type="abie:Elhub_MPAddressCadastralType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MpDetailMeteringPointCharacteristic" type="abie:Elhub_DetailMeteringPointCharacteristicType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeDetailType" minOccurs="0" maxOccurs="2"/>
 			<xsd:element name="MeteringInstallationMeterFacility" type="abie:Elhub_MeterFacilityType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MPTaxationProfile" type="abie:Elhub_TaxationProfileMeteringPointType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MeasurementDefinition" type="abie:Elhub_MeasurementDefinitionGenericType" minOccurs="0" maxOccurs="99"/>
@@ -588,7 +590,7 @@
 			<xsd:element name="MeteringGridAreaUsedDomainLocation" type="abie:Elhub_MeteringGridAreaType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MpDetailMeteringPointCharacteristic" type="abie:Elhub_DetailMeteringPointCharacteristicType" minOccurs="1" maxOccurs="1"/>
 			<xsd:element name="MeteringInstallationMeterFacility" type="abie:Elhub_MeterFacilityType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="AnnualPeriodEstimatedMetrics" type="abie:Elhub_EstimatedAnnualVolumeType" minOccurs="0" maxOccurs="2"/>
 			<xsd:element name="MPTaxationProfile" type="abie:Elhub_NACEConsType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
