@@ -966,9 +966,9 @@
 	</xsd:simpleType>
 	<xsd:simpleType name="PurposeType">
 		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="accessRequest"/>
-			<xsd:enumeration value="changeOfSupplier"/>
-			<xsd:enumeration value="moveIn"/>
+			<xsd:enumeration value="StartOfSupply"/>
+			<xsd:enumeration value="AccessRequest"/>
+			<xsd:enumeration value="Other"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="QueryCategoryCodeType">
