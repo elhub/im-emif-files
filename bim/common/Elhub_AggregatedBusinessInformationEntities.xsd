@@ -548,8 +548,8 @@
 	<xsd:complexType name="Elhub_RequestUpfrontMeteringPointCharacteristicsType">
 		<xsd:sequence>
 			<xsd:element name="MeteringPointUsedDomainLocation" type="abie:Elhub_MeteringPointType" minOccurs="0" maxOccurs="1"/>
-			<xsd:element name="Purpose" type="bdt:PurposeType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="ConsumerInvolvedCustomerParty" type="abie:Elhub_EndUserIdentificationType" minOccurs="0" maxOccurs="1"/>
+			<xsd:element name="Purpose" type="bdt:PurposeType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MPAddressMeteringPointAddress" type="abie:Elhub_MPAddressSearchType" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="MeteringInstallationMeterFacility" type="abie:Elhub_MeterSearchType" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
