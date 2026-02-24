@@ -959,9 +959,6 @@
 			<xsd:enumeration value="B19"/>
 			<xsd:enumeration value="B20"/>
 			<xsd:enumeration value="B25"/>
-			<xsd:enumeration value="Z04"/>
-			<xsd:enumeration value="Z05"/>
-			<xsd:enumeration value="Z06"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="PurposeType">
