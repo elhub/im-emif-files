@@ -1,5 +1,7 @@
 # Elhub Messaging Interface (EMIF)
 
+#### Current release: 2.4.2
+
 This repository contains desription of Elhub Messaging Interface (EMIF).
 
 The audience of this document are developers and architects of systems that are to integrate with Elhub.
