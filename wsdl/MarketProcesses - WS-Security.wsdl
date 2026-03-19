@@ -87,7 +87,7 @@
 		</wsp1_2:ExactlyOne>
 	</wsp1_2:Policy>
 	<wsdl:types>
-		<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:no:elhub:emif:wsdl:marketprocesses:v2" version="2.4.2">
+		<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="urn:no:elhub:emif:wsdl:marketprocesses:v2" version="2.4.3">
 			<xsd:include schemaLocation="xsd/MarketProcesses.xsd"/>
 		</xsd:schema>
 	</wsdl:types>
