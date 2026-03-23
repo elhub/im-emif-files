@@ -1,6 +1,6 @@
 # Elhub Messaging Interface (EMIF)
 
-#### Current release: 2.4.2
+#### Current release: 2.4.3
 
 This repository contains desription of Elhub Messaging Interface (EMIF).
 
